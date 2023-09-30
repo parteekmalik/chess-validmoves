@@ -98,18 +98,6 @@ export const pieceMovement: { [key: string]: { row: number; col: number }[] } = 
     { row: -1, col: 1 },
   ],
 };
-export const initialPosition: string[][] = [
-  ["bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR"],
-  ["bP", "bP", "bP", "bP", "bP", "bP", "bP", "bP"],
-  Array(8).fill(""),
-  Array(8).fill(""),
-  Array(8).fill(""),
-  Array(8).fill(""),
-  ["wP", "wP", "wP", "wP", "wP", "wP", "wP", "wP"],
-  ["wR", "wN", "wB", "wQ", "wK", "wB", "wN", "wR"],
-];
-
 
 export const emptyPiece: string = "";
-export const boardSize: number = 600;
-export const squareSize: number = boardSize / 8;
+
