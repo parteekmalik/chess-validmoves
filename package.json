@@ -1,0 +1,27 @@
+{
+  "name": "chess-validmoves",
+  "version": "1.0.0",
+  "description": "take chessboard data and return all validmoves",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "chess",
+    "validmaoves"
+  ],
+  "author": "parteek malik",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.199",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
